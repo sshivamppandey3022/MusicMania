@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="Venom 1.1-debug"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"></TextView>
+    <TextView
+        android:id="@+id/dailog_Txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MusicBox is a Music Player Which\ndeveloped by Shivam Pandey"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textSize="16dp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/dailog_Txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:text="Google+"></TextView>
+        <TextView
+            android:id="@+id/dailog_Txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:text="Twitter+"></TextView>
+        <TextView
+            android:id="@+id/dailog_Txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginRight="20dp"
+            android:text="Github"></TextView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/dailog_Txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report any bugs here"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_margin="10dp"></TextView>
+    <TextView
+        android:id="@+id/dailog_Txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Specify any feature request in the Google+ community here"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_margin="10dp"></TextView>
+    <TextView
+        android:id="@+id/dailog_Ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"></TextView>
+
+
+</LinearLayout>
